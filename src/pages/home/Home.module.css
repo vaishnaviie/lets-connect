@@ -1,0 +1,61 @@
+.mainContainer {
+  /* border: 2px solid blue; */
+}
+
+.subContainer {
+  /* background-color: red; */
+  /* border: 2px solid red; */
+  /* width: 45%; */
+  /* margin: auto; */
+}
+
+.teaxtAreaContainer {
+  width: 80%;
+  border: 2px solid blue;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: white;
+}
+
+.textArea {
+  padding-left: 0.5rem;
+  font-family: "Familjen Grotesk";
+  border: 2px solid transparent;
+  border-radius: 5px;
+  /* width: 15rem; */
+  /* border: 1px solid pink; */
+  height: 4rem;
+  width: 100%;
+  margin: 1rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.btnPlus {
+  font-size: 1.3rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: blue;
+  background-color: transparent;
+  margin-right: 0.7rem;
+}
+
+.selectedTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+  width: 20%;
+  padding: 0.3rem 1rem;
+  font-family: "DM Serif Display", serif;
+  border: 2px solid blue;
+  border-radius: 5px;
+}

@@ -1,0 +1,59 @@
+.editPostModalContainer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  border: 2px solid;
+  inset: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.editPostModal {
+  background-color: white;
+  margin: 0;
+  width: 25%;
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1.5rem;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.editPostModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 0.2rem;
+}
+
+.textarea {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.cross {
+  font-size: 1.5rem;
+  color: red;
+  cursor: pointer;
+}
+.cross:hover {
+  font-size: 1.6rem;
+  color: red;
+}
+
+.btnPostUpdate {
+  border: 1px solid blue;
+  border-radius: 5px;
+  height: 2rem;
+  width: 100%;
+  background-color: rgb(199, 199, 244);
+}
+.btnPostUpdate:hover {
+  border: 1.6px solid blue;
+  background-color: rgb(194, 194, 231);
+}

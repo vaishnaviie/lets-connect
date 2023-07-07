@@ -1,0 +1,78 @@
+.mainContainer {
+  /* border: 2px solid red; */
+  width: 22vw;
+  height: 100vh;
+  position: sticky;
+  top: 0px;
+}
+
+.PYMK {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "Familjen Grotesk";
+  margin: 1rem 0rem;
+}
+
+.allUser {
+  list-style: none;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.individualUser {
+  border-bottom: 0.1px solid gray;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dpNname {
+  display: flex;
+}
+
+/* .UsersProPic {
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} */
+
+.allUsersProPic {
+  border: 1px solid blue;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.nameUsernameContainer {
+  text-align: left;
+  /* border: 1px solid pink; */
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.name {
+  /* border: 1px solid hotpink; */
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "DM Serif Display";
+}
+
+.userName {
+  /* border: 1px solid skyblue; */
+  cursor: pointer;
+  font-family: "Familjen Grotesk";
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.btnFollow {
+  font-family: "Familjen Grotesk";
+  width: 3.5rem;
+  height: 2rem;
+  background-color: skyblue;
+  border: 1.6px solid navy;
+  border-radius: 5px;
+}

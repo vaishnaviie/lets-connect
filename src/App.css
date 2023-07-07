@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+  font-size: 1rem;
+  box-sizing: border-box;
+}

@@ -1,0 +1,74 @@
+.mainContainer {
+  /* border: 2px solid purple; */
+  background-color: rgb(235, 246, 250);
+  padding: 1rem 0rem;
+  padding-bottom: 1.5rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.searchInput {
+  width: 80%;
+  margin: auto;
+  margin-top: 1.2rem;
+  display: block;
+  border: 2px solid blue;
+  border-radius: 5px;
+  height: 2.5rem;
+  padding-left: 1rem;
+  z-index: 999;
+}
+
+/* .searchedUsers {
+  border: 2px solid green;
+} */
+
+.searchedUsers {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+  border: 2px solid blue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.IndividualSearchedUsers {
+  width: 100%;
+  border-bottom: 1px solid green;
+  margin: auto;
+  padding-top: 0.3rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  /* margin-top: 0.5rem; */
+}
+
+.imgNameUserNameContainer {
+  display: flex;
+}
+
+.nameUserNameContainer {
+  margin-left: 1rem;
+}
+
+.name {
+  font-family: "DM Serif Display", serif;
+  font-size: 1rem;
+}
+
+.userName {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.postProPic {
+  border: 1px solid blue;
+  border-radius: 5rem;
+}

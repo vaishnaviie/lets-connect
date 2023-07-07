@@ -1,0 +1,81 @@
+.mainContainer {
+  border: 2px solid black;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  inset: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Familjen Grotesk", sans-serif;
+}
+
+.subContainer {
+  background-color: white;
+  margin: 0;
+  width: 30%;
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1.5rem;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cross {
+  font-size: 1.5rem;
+  color: red;
+  cursor: pointer;
+}
+.cross:hover {
+  font-size: 1.6rem;
+  color: red;
+}
+
+.inputDiv {
+  /* border: 1px solid red; */
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  font-size: 1.1rem;
+}
+
+.inputField {
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  height: 1.6rem;
+  margin: 0rem 0.5rem;
+  width: 75%;
+}
+
+textarea {
+  margin: 0.1rem;
+  width: 90%;
+  height: 10%;
+  padding: 0.5rem;
+  border: 2px solid blue;
+}
+
+.btnUpdate {
+  border: 1px solid blue;
+  border-radius: 5px;
+  height: 2rem;
+  background-color: rgb(199, 199, 244);
+}
+.btnUpdate:hover {
+  border: 1.6px solid blue;
+  background-color: rgb(194, 194, 231);
+}
