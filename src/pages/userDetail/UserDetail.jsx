@@ -27,6 +27,7 @@ const UserDetail = () => {
                 float: "right",
                 fontSize: "1.2rem",
                 margin: "1rem 1rem 0rem 0rem",
+                cursor: "pointer",
               }}
             />
           ) : (

@@ -12,7 +12,7 @@ import RightAside from "./components/aside/RightAside";
 import Landing from "./pages/landing/Landing";
 import { NavLink } from "react-router-dom";
 import MainContainer from "./components/mainContainer/MainContainer";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import UserDetail from "./pages/userDetail/UserDetail";
 import NewPost from "./components/newPost/NewPost";
