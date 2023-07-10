@@ -96,3 +96,7 @@
   right: 2rem;
   top: 1.3rem;
 }
+
+.btnFollow:hover {
+  background-color: rgb(162, 222, 246);
+}

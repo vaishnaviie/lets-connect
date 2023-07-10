@@ -29,6 +29,8 @@ const PostCard = ({ post }) => {
     isPostBookmarked,
     isPostLiked,
     removePostFromLikedArr,
+    displaySingleUsersDetails,
+    displaySingleUserPosts,
   } = useAuth();
   // console.log(AuthState?.getAllPostsArr);
   // console.log(AuthState?.user);
@@ -43,7 +45,7 @@ const PostCard = ({ post }) => {
           {post.username === AuthState?.user?.username && (
             <BiDotsHorizontalRounded
               onClick={() => setShowOptions((prev) => !prev)}
-              style={{ float: "right", fontSize: "1.2rem" }}
+              style={{ float: "right", fontSize: "1.2rem", cursor: "pointer" }}
             />
           )}
           {showOptions && post.username === AuthState?.user?.username && (

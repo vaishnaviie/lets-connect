@@ -32,6 +32,7 @@
   margin: auto;
   display: flex;
   align-items: center;
+  outline: none;
 }
 
 .btnPlus {
@@ -45,6 +46,7 @@
   color: blue;
   background-color: transparent;
   margin-right: 0.7rem;
+  cursor: pointer;
 }
 
 .selectedTag {
@@ -58,4 +60,6 @@
   font-family: "DM Serif Display", serif;
   border: 2px solid blue;
   border-radius: 5px;
+  cursor: pointer;
+  outline: none;
 }

@@ -8,7 +8,7 @@ const RequiresAuthh = () => {
   return AuthState?.isLoggedIn ? (
     <Outlet />
   ) : (
-    <Navigate to="/landing" state={{ from: location }} replace />
+    <Navigate to="/signin" state={{ from: location }} replace />
   );
 };
 

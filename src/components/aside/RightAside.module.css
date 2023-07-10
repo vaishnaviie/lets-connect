@@ -18,6 +18,10 @@
   border: 2px solid blue;
   border-radius: 5px;
   background-color: white;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .individualUser {
@@ -75,4 +79,8 @@
   background-color: skyblue;
   border: 1.6px solid navy;
   border-radius: 5px;
+}
+
+.btnFollow:hover {
+  background-color: rgb(162, 222, 246);
 }

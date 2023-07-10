@@ -11,6 +11,22 @@ export const posts = [
     _id: uuid(),
     proPic:
       "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
+    content: "She flies by her own wings",
+    likes: {
+      likeCount: 0,
+      likedBy: [],
+      dislikedBy: [],
+    },
+    firstName: "Adarsh",
+    lastName: "Balika",
+    username: "adarshbalika",
+    createdAt: "2022-04-16T11:25:24+05:30",
+    updatedAt: formatDate(),
+  },
+  {
+    _id: uuid(),
+    proPic:
+      "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
     content: "lorem ispsum",
     likes: {
       likeCount: 0,
@@ -28,7 +44,7 @@ export const posts = [
     _id: uuid(),
     proPic:
       "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
-    content: "lorem ispsum haha",
+    content: "My life my rules",
     likes: {
       likeCount: 1,
       likedBy: [
@@ -56,7 +72,7 @@ export const posts = [
     _id: uuid(),
     proPic:
       "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
-    content: "ohho lala la",
+    content: "Trust the magic of new beginning",
     likes: {
       likeCount: 1,
       likedBy: [
@@ -84,7 +100,7 @@ export const posts = [
     _id: uuid(),
     proPic:
       "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
-    content: "lorem ispsum haha",
+    content: "Rise and slay",
     likes: {
       likeCount: 0,
       likedBy: [],
@@ -101,7 +117,7 @@ export const posts = [
     _id: uuid(),
     proPic:
       "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
-    content: "lorem ispsum haha",
+    content: "Shine like a star",
     likes: {
       likeCount: 0,
       likedBy: [],
@@ -118,7 +134,7 @@ export const posts = [
     _id: uuid(),
     proPic:
       "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
-    content: "lorem ispsum haha",
+    content: "When nothing goes right, go left",
     likes: {
       likeCount: 0,
       likedBy: [],
@@ -134,7 +150,7 @@ export const posts = [
     _id: uuid(),
     proPic:
       "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
-    content: "lorem ispsum haha",
+    content: "be fearlessly authentic",
     likes: {
       likeCount: 1,
       likedBy: [
@@ -161,7 +177,7 @@ export const posts = [
     _id: uuid(),
     proPic:
       "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
-    content: "lorem ispsum haha",
+    content: "Trust your creativity",
     likes: {
       likeCount: 0,
       likedBy: [],

@@ -1,3 +1,7 @@
+.mainContainer::-webkit-scrollbar {
+  display: none;
+}
+
 .mainContainer {
   /* border: 3px solid hotpink; */
   min-height: 100vh;

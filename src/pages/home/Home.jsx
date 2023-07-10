@@ -121,7 +121,11 @@ const Home = () => {
           onChange={(e) => setSelectedTag(e.target.value)}
         >
           {sortOptions.map((option) => (
-            <option key={option.label} value={option.value}>
+            <option
+              key={option.label}
+              value={option.value}
+              style={{ cursor: "pointer" }}
+            >
               {option.label}
             </option>
           ))}

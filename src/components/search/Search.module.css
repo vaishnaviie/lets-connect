@@ -17,6 +17,7 @@
   border-radius: 5px;
   height: 2.5rem;
   padding-left: 1rem;
+  outline: none;
   z-index: 999;
 }
 
