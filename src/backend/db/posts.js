@@ -43,7 +43,7 @@ export const posts = [
   {
     _id: uuid(),
     proPic:
-      "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
+      "https://i.pinimg.com/236x/ba/fe/48/bafe48996a2623214e1fa5b2a3ace837.jpg",
     content: "My life my rules",
     likes: {
       likeCount: 1,
@@ -71,8 +71,8 @@ export const posts = [
   {
     _id: uuid(),
     proPic:
-      "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
-    content: "Trust the magic of new beginning",
+      "https://i.pinimg.com/236x/ba/fe/48/bafe48996a2623214e1fa5b2a3ace837.jpg",
+    content: "life is beautiful",
     likes: {
       likeCount: 1,
       likedBy: [
@@ -99,7 +99,7 @@ export const posts = [
   {
     _id: uuid(),
     proPic:
-      "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
+      "https://i.pinimg.com/236x/bd/3f/02/bd3f023608df1a1f4d6a75f18a1508bb.jpg",
     content: "Rise and slay",
     likes: {
       likeCount: 0,
@@ -116,7 +116,7 @@ export const posts = [
   {
     _id: uuid(),
     proPic:
-      "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
+      "https://i.pinimg.com/236x/9f/a8/1b/9fa81bf1c1d6eef42f485c63ac4e8e50.jpg",
     content: "Shine like a star",
     likes: {
       likeCount: 0,
@@ -133,7 +133,7 @@ export const posts = [
   {
     _id: uuid(),
     proPic:
-      "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
+      "https://i.pinimg.com/236x/15/23/c7/1523c7f138b1bb5eb08c75786ebda403.jpg",
     content: "When nothing goes right, go left",
     likes: {
       likeCount: 0,
@@ -149,7 +149,7 @@ export const posts = [
   {
     _id: uuid(),
     proPic:
-      "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
+      "https://i.pinimg.com/236x/3d/59/ad/3d59ad6ca5b2525314e0118ccaf1adab.jpg",
     content: "be fearlessly authentic",
     likes: {
       likeCount: 1,
@@ -176,7 +176,7 @@ export const posts = [
   {
     _id: uuid(),
     proPic:
-      "https://i.pinimg.com/236x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg",
+      "https://i.pinimg.com/236x/7c/1e/40/7c1e401cf6cf5723082aa5f4fc2e14f7.jpg",
     content: "Trust your creativity",
     likes: {
       likeCount: 0,
